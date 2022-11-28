@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCE88EDB2933D96100791498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EDA2933D96100791498 /* AppDelegate.swift */; };
-		DCE88EDD2933D96100791498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EDC2933D96100791498 /* ViewController.swift */; };
-		DCE88EE02933D96100791498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE88EDE2933D96100791498 /* Main.storyboard */; };
-		DCE88EE22933D96300791498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE88EE12933D96300791498 /* Assets.xcassets */; };
-		DCE88EE52933D96300791498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE88EE32933D96300791498 /* LaunchScreen.storyboard */; };
 		DCE88EF02933D96400791498 /* myCookLessons1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */; };
+		DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFB2933D9B600791498 /* MealTableViewController.swift */; };
+		DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */; };
+		DCE88F0E2933D9B800791498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFE2933D9B700791498 /* ViewController.swift */; };
+		DCE88F0F2933D9B800791498 /* WebMealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFF2933D9B700791498 /* WebMealModel.swift */; };
+		DCE88F102933D9B800791498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F002933D9B700791498 /* AppDelegate.swift */; };
+		DCE88F112933D9B800791498 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F012933D9B700791498 /* RatingControl.swift */; };
+		DCE88F122933D9B800791498 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F022933D9B700791498 /* MealViewController.swift */; };
+		DCE88F132933D9B800791498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE88F042933D9B700791498 /* Assets.xcassets */; };
+		DCE88F152933D9B800791498 /* selectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F062933D9B700791498 /* selectUser.swift */; };
+		DCE88F172933D9B800791498 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F082933D9B800791498 /* Meal.swift */; };
+		DCE88F182933D9B800791498 /* Homemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F092933D9B800791498 /* Homemodel.swift */; };
+		DCE88F192933D9B800791498 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DCE88F0A2933D9B800791498 /* Base.lproj */; };
+		DCE88F1D2933DF5800791498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE88F1C2933DF5800791498 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,15 +35,22 @@
 
 /* Begin PBXFileReference section */
 		DCE88ED72933D96100791498 /* myCookLessons1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCookLessons1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE88EDA2933D96100791498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCE88EDC2933D96100791498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCE88EDF2933D96100791498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCE88EE12933D96300791498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCE88EE42933D96300791498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCE88EE62933D96300791498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE88EEB2933D96400791498 /* myCookLessons1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCookLessons1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCookLessons1Tests.swift; sourceTree = "<group>"; };
 		DCE88EF12933D96400791498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE88EFB2933D9B600791498 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		DCE88EFE2933D9B700791498 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE88EFF2933D9B700791498 /* WebMealModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebMealModel.swift; sourceTree = "<group>"; };
+		DCE88F002933D9B700791498 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE88F012933D9B700791498 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		DCE88F022933D9B700791498 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		DCE88F042933D9B700791498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE88F062933D9B700791498 /* selectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectUser.swift; sourceTree = "<group>"; };
+		DCE88F082933D9B800791498 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DCE88F092933D9B800791498 /* Homemodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homemodel.swift; sourceTree = "<group>"; };
+		DCE88F0A2933D9B800791498 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		DCE88F1C2933DF5800791498 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +92,19 @@
 		DCE88ED92933D96100791498 /* myCookLessons1 */ = {
 			isa = PBXGroup;
 			children = (
-				DCE88EDA2933D96100791498 /* AppDelegate.swift */,
-				DCE88EDC2933D96100791498 /* ViewController.swift */,
-				DCE88EDE2933D96100791498 /* Main.storyboard */,
-				DCE88EE12933D96300791498 /* Assets.xcassets */,
-				DCE88EE32933D96300791498 /* LaunchScreen.storyboard */,
-				DCE88EE62933D96300791498 /* Info.plist */,
+				DCE88F0A2933D9B800791498 /* Base.lproj */,
+				DCE88F092933D9B800791498 /* Homemodel.swift */,
+				DCE88F002933D9B700791498 /* AppDelegate.swift */,
+				DCE88F042933D9B700791498 /* Assets.xcassets */,
+				DCE88F1C2933DF5800791498 /* Main.storyboard */,
+				DCE88F082933D9B800791498 /* Meal.swift */,
+				DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */,
+				DCE88EFB2933D9B600791498 /* MealTableViewController.swift */,
+				DCE88F022933D9B700791498 /* MealViewController.swift */,
+				DCE88F012933D9B700791498 /* RatingControl.swift */,
+				DCE88F062933D9B700791498 /* selectUser.swift */,
+				DCE88EFE2933D9B700791498 /* ViewController.swift */,
+				DCE88EFF2933D9B700791498 /* WebMealModel.swift */,
 			);
 			path = myCookLessons1;
 			sourceTree = "<group>";
@@ -146,6 +168,7 @@
 				TargetAttributes = {
 					DCE88ED62933D96100791498 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					DCE88EEA2933D96400791498 = {
 						CreatedOnToolsVersion = 10.1;
@@ -177,9 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE88EE52933D96300791498 /* LaunchScreen.storyboard in Resources */,
-				DCE88EE22933D96300791498 /* Assets.xcassets in Resources */,
-				DCE88EE02933D96100791498 /* Main.storyboard in Resources */,
+				DCE88F192933D9B800791498 /* Base.lproj in Resources */,
+				DCE88F132933D9B800791498 /* Assets.xcassets in Resources */,
+				DCE88F1D2933DF5800791498 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +220,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE88EDD2933D96100791498 /* ViewController.swift in Sources */,
-				DCE88EDB2933D96100791498 /* AppDelegate.swift in Sources */,
+				DCE88F0E2933D9B800791498 /* ViewController.swift in Sources */,
+				DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */,
+				DCE88F152933D9B800791498 /* selectUser.swift in Sources */,
+				DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */,
+				DCE88F172933D9B800791498 /* Meal.swift in Sources */,
+				DCE88F122933D9B800791498 /* MealViewController.swift in Sources */,
+				DCE88F102933D9B800791498 /* AppDelegate.swift in Sources */,
+				DCE88F112933D9B800791498 /* RatingControl.swift in Sources */,
+				DCE88F182933D9B800791498 /* Homemodel.swift in Sources */,
+				DCE88F0F2933D9B800791498 /* WebMealModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,25 +250,6 @@
 			targetProxy = DCE88EEC2933D96400791498 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DCE88EDE2933D96100791498 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCE88EDF2933D96100791498 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DCE88EE32933D96300791498 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCE88EE42933D96300791498 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCE88EF22933D96400791498 /* Debug */ = {
@@ -360,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WPDMGVZBJP;
 				INFOPLIST_FILE = myCookLessons1/Info.plist;
@@ -369,6 +382,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wambutt.myCookLessons1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myCookLessons1/myCookLessons1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WPDMGVZBJP;
 				INFOPLIST_FILE = myCookLessons1/Info.plist;
@@ -387,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wambutt.myCookLessons1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myCookLessons1/myCookLessons1-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
