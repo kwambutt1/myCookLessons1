@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/*
 protocol HomeModelDelegate {
     func itemsDownloaded(webmeals: [WebMeal])
 }
@@ -100,3 +100,4 @@ class HomeModel {
     }
 
 }
+*/

@@ -27,8 +27,8 @@ import os.log
         return searchController.isActive && !isSearchBarEmpty
     }
     var permission: Bool!
-    var webmeals = [WebMeal]()
-    var homeModel = HomeModel()
+    //var webmeals = [WebMeal]()
+    //var homeModel = HomeModel()
     //var savedMeals: [Meal]?
     var meal: Meal?
     var check: Bool = true
