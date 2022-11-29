@@ -103,7 +103,7 @@ import os.log
             } // end if
             
         }// end willEnetrForeground
-  
+        
     /*
         //compareWithWeb()
     
