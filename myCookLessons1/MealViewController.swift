@@ -219,14 +219,15 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         meal = Meal(name: name, photo: photo, rating: rating, lessonsLearned: lessonsLearned)
        
+        /*
        //sendMealtoWeb((Any).self)
         
         if selectedImageData != nil {
         
         imageUpload(_sender: (Any).self)
-            
         }
-        
+        */
+ 
     } // end of override func prepare (for segue: UIStoryboardSegue, sender: Any?)
     
     
@@ -275,6 +276,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
         }
    
+    /*
     func imageUpload(_sender: Any) {
         
         // send meal data and image to the web
@@ -351,4 +353,5 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
     } // end of function imageuplöad
 
+    */
 } // end of main

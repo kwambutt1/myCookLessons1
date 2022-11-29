@@ -48,7 +48,7 @@ import os.log
         // Mark: Initialization
         
         self.tableView.delegate = self
-        self.tableView.dataSource = self
+        //self.tableView.dataSource = self
         
         /*
         homeModel.getItems()
