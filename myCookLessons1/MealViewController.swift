@@ -51,10 +51,6 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         //Mark: Intitialization
         
-        //Setup username
-        
-        
-        
         
        // Set up views if editing an existing Meal.
         
@@ -219,15 +215,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         meal = Meal(name: name, photo: photo, rating: rating, lessonsLearned: lessonsLearned)
        
-        /*
-       //sendMealtoWeb((Any).self)
-        
-        if selectedImageData != nil {
-        
-        imageUpload(_sender: (Any).self)
-        }
-        */
- 
+  
     } // end of override func prepare (for segue: UIStoryboardSegue, sender: Any?)
     
     
@@ -276,82 +264,5 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
         }
    
-    /*
-    func imageUpload(_sender: Any) {
-        
-        // send meal data and image to the web
-        
-        
-        
-        let filename = meal!.photo
-        
-        // generate boundary string using a unique per-app string
-        
-        let boundary = UUID().uuidString
-        let fieldName = "reqtype"
-        let fieldValue = "fileToUpload"
-        let fieldName2 = "userhash"
-        let fieldValue2 = "caa3dce4fcb36cfdf9258ad9c"
-        let config = URLSessionConfiguration.default
-        let session = URLSession(configuration: config)
-        
-        
-        var urlRequest = URLRequest(url: URL(string: "https://www.wambutt.de/mobileapp/upload.php")!)
-        urlRequest.httpMethod = "POST"
-        
-        //Set Content-Type Header to multipart/form-data, this is equivalent to submitting form data with file upload in a web browser
-        //And the boundary is also set here
-        
-        urlRequest.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
-        
-        var data = Data()
-        
-       
-        //Add the regtype field and its value to the raw http request data
-        
-        data.append("\r\n--\(boundary)\r\n" .data(using: .utf8)!)
-        data.append("Content-Disposition: form-data; name=\"\(fieldName)\"\r\n\r\n" .data(using: .utf8)!)
-        data.append("\(fieldValue)".data(using: .utf8)!)
-        
-        //Add the userhash field and its value to the raw http request data
-        
-        data.append("\r\n--\(boundary)\r\n" .data(using: .utf8)!)
-        data.append("Content-Disposition: form-data; name=\"\(fieldName2)\"\r\n\r\n" .data(using: .utf8)!)
-        data.append("\(fieldValue2)\r\n".data(using: .utf8)!)
-        
-        //Add the image data to the raw http request data
-        
-        data.append("\r\n--\(boundary)\r\n" .data(using: .utf8)!)
-        data.append("Content-Disposition: form-data; name=\"fileToUpload\"; filename=\"\(filename)\"\r\n" .data(using: .utf8)!)
-        data.append("Content-Type: image/jpeg\r\n\r\n" .data(using: .utf8)!)
-        data.append(selectedImageData!)
-        
-        //End the raw http request data, note that there is 2 extra dash at the end, to indicate the end of the data
-        
-        data.append("\r\n--\(boundary)--\r\n" .data(using: .utf8)!)
-        
-        // Send a POST request to the url, with the data we created earlier
-        
-        session.uploadTask(with: urlRequest, from: data, completionHandler: {responseData, response, error in
-            
-            if (error != nil) {
-                print("\(error!.localizedDescription)")
-                }
-            guard let responseData = responseData
-                else {
-                print("no reponse data")
-                return
-                } // end else
-            if let responseString = String(data: responseData, encoding: .utf8) {
-                print(" uploaded to: \(responseString)")
-                } // end if let
-            
-            } // end completion handler
-        
-        ) // end session.uploadTask
-        .resume()
-        
-    } // end of function imageuplöad
-
-    */
+   
 } // end of main

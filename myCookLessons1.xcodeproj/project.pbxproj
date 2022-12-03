@@ -10,7 +10,6 @@
 		DCE88EF02933D96400791498 /* myCookLessons1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */; };
 		DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFB2933D9B600791498 /* MealTableViewController.swift */; };
 		DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */; };
-		DCE88F0E2933D9B800791498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFE2933D9B700791498 /* ViewController.swift */; };
 		DCE88F102933D9B800791498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F002933D9B700791498 /* AppDelegate.swift */; };
 		DCE88F112933D9B800791498 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F012933D9B700791498 /* RatingControl.swift */; };
 		DCE88F122933D9B800791498 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F022933D9B700791498 /* MealViewController.swift */; };
@@ -37,7 +36,6 @@
 		DCE88EF12933D96400791498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE88EFB2933D9B600791498 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
-		DCE88EFE2933D9B700791498 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCE88F002933D9B700791498 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE88F012933D9B700791498 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		DCE88F022933D9B700791498 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 				DCE88EFB2933D9B600791498 /* MealTableViewController.swift */,
 				DCE88F022933D9B700791498 /* MealViewController.swift */,
 				DCE88F012933D9B700791498 /* RatingControl.swift */,
-				DCE88EFE2933D9B700791498 /* ViewController.swift */,
 			);
 			path = myCookLessons1;
 			sourceTree = "<group>";
@@ -211,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE88F0E2933D9B800791498 /* ViewController.swift in Sources */,
 				DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */,
 				DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */,
 				DCE88F172933D9B800791498 /* Meal.swift in Sources */,
