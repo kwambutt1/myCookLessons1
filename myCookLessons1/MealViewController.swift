@@ -54,8 +54,15 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
        // Set up views if editing an existing Meal.
         
+        let attrs = [
+            NSAttributedString.Key.foregroundColor: UIColor.red,
+            NSAttributedString.Key.font: UIFont(name: "Zapfino", size: 18)!
+        ]
+        
+        UINavigationBar.appearance().titleTextAttributes = attrs
+        
         if let meal = meal {
-            navigationItem.title = meal.name
+            navigationItem.title = "edit Your meal"
             nameTextField.text = meal.name
             
             let path = getDocumentsDirectory().appendingPathComponent(meal.photo)

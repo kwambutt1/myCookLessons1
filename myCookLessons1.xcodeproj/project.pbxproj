@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC57BE41293BB3D800DA2C0C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57BE40293BB3D800DA2C0C /* Entry.swift */; };
 		DCE88EF02933D96400791498 /* myCookLessons1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */; };
 		DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFB2933D9B600791498 /* MealTableViewController.swift */; };
 		DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC57BE40293BB3D800DA2C0C /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		DCE88ED72933D96100791498 /* myCookLessons1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCookLessons1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE88EEB2933D96400791498 /* myCookLessons1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCookLessons1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCookLessons1Tests.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				DCE88F002933D9B700791498 /* AppDelegate.swift */,
 				DCE88F042933D9B700791498 /* Assets.xcassets */,
 				DCE88F1C2933DF5800791498 /* Main.storyboard */,
+				DC57BE40293BB3D800DA2C0C /* Entry.swift */,
 				DCE88F082933D9B800791498 /* Meal.swift */,
 				DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */,
 				DCE88EFB2933D9B600791498 /* MealTableViewController.swift */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC57BE41293BB3D800DA2C0C /* Entry.swift in Sources */,
 				DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */,
 				DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */,
 				DCE88F172933D9B800791498 /* Meal.swift in Sources */,

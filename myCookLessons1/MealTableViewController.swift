@@ -53,6 +53,14 @@ import os.log
         
         //Use the edit button item provided by the table view controller
     
+        
+        let attrs = [
+            NSAttributedString.Key.foregroundColor: UIColor.red,
+            NSAttributedString.Key.font: UIFont(name: "Zapfino", size: 18)!
+        ]
+        
+        UINavigationBar.appearance().titleTextAttributes = attrs
+        
         navigationItem.leftBarButtonItem = editButtonItem
         self.navigationItem.leftBarButtonItem?.title = "Delete"
         
