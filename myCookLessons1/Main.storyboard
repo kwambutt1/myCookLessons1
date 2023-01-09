@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMy-cj-GfD">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMy-cj-GfD">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,15 +12,15 @@
             <objects>
                 <tableViewController id="f2n-11-lTk" customClass="MealTableViewController" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Avl-iX-XWY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="MCc-xb-mv8" customClass="MealTableViewCell" customModule="myCookLessons1" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <rect key="frame" x="0.0" y="50" width="1024" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MCc-xb-mv8" id="1wx-V1-m3O">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qnu-0W-PCP">
@@ -66,18 +63,18 @@
                                             </variation>
                                         </imageView>
                                         <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mlG-s9-OqW" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
-                                            <rect key="frame" x="142" y="35" width="252" height="44"/>
+                                            <rect key="frame" x="752" y="23" width="252" height="44"/>
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="-1" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-1g-asE">
-                                            <rect key="frame" x="88" y="5" width="305" height="41"/>
+                                            <rect key="frame" x="104" y="15" width="603" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="603" id="WMJ-k9-8Ty"/>
                                             </constraints>
                                             <attributedString key="attributedText">
                                                 <fragment content="Label">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.25816413977188463" green="0.96401392487046633" blue="0.18741955517145947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="20" name="Zapfino"/>
+                                                        <color key="NSColor" red="0.064932480053280506" green="0.50684600515463929" blue="0.10932544371516789" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="24" name="TimesNewRomanPS-ItalicMT"/>
                                                         <font key="NSOriginalFont" size="14" name="Zapfino"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         <shadow key="NSShadow" blurRadius="10">
@@ -217,12 +214,32 @@
             <objects>
                 <viewController id="UMy-cj-GfD" customClass="Entry" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PA2-DD-nT4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj9-UR-XzV">
-                                <rect key="frame" x="93" y="536" width="229" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBm-sO-s3B">
+                                <rect key="frame" x="330" y="517.5" width="364" height="351"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="351" id="DJH-5q-Uni"/>
+                                    <constraint firstAttribute="width" secondItem="oBm-sO-s3B" secondAttribute="height" multiplier="28:27" id="S2S-2z-JZS"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">You can save Your "lessons learned" when cooking a meal, add a photo an rate the taste. So You continuously can improve Your results</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.95201181994818651" green="0.23248942879499498" blue="0.21129009736157714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Zapfino"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj9-UR-XzV">
+                                <rect key="frame" x="339.5" y="1202" width="345" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qj9-UR-XzV" secondAttribute="height" multiplier="61:29" id="BzF-Dc-6uB"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Enter">
@@ -237,39 +254,36 @@
                                     <segue destination="qD8-J4-M2n" kind="presentation" identifier="enter" modalPresentationStyle="fullScreen" id="L1z-bU-0I8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBm-sO-s3B">
-                                <rect key="frame" x="25" y="171" width="364" height="351"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">You can save Your "lessons learned" when cooking a meal, add a photo an rate the taste. So You continuously can improve Your results</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.95201181994818651" green="0.23248942879499498" blue="0.21129009736157714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Zapfino"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXb-DY-Fz9">
-                                <rect key="frame" x="20" y="93" width="374" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXb-DY-Fz9">
+                                <rect key="frame" x="16" y="20" width="353" height="255"/>
                                 <color key="tintColor" red="0.86660055049999996" green="0.17562872390000001" blue="0.24946206309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WXb-DY-Fz9" secondAttribute="height" multiplier="353:255" id="97O-nM-zii"/>
+                                    <constraint firstAttribute="width" constant="353" id="SdO-2w-a9V"/>
+                                    <constraint firstAttribute="height" constant="255" id="uRf-TM-Qsx"/>
+                                </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="myCookLessons v.">
+                                    <fragment content="myCookLessons ---v. ---">
                                         <attributes>
-                                            <color key="NSColor" red="0.42146886592746619" green="0.96116013601036265" blue="0.15178469726833405" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="27" name="Zapfino"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                            <color key="NSColor" red="0.26925046843133316" green="0.61698614690721643" blue="0.30501136765624659" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="38" name="Zapfino"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" paragraphSpacingBefore="3" firstLineHeadIndent="1" headIndent="3" lineHeightMultiple="0.5" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <color key="highlightedColor" red="1" green="0.50806887590000005" blue="0.4399681506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.95550938518908846" green="1" blue="0.76544913755705513" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LRL-tR-KsU"/>
+                        <color key="backgroundColor" red="0.95550938518908846" green="1" blue="0.76544913755705513" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oBm-sO-s3B" firstAttribute="centerY" secondItem="LRL-tR-KsU" secondAttribute="centerY" id="20d-AU-pfI"/>
+                            <constraint firstItem="oBm-sO-s3B" firstAttribute="centerX" secondItem="LRL-tR-KsU" secondAttribute="centerX" id="7B9-qn-2kH"/>
+                            <constraint firstItem="LRL-tR-KsU" firstAttribute="bottom" secondItem="qj9-UR-XzV" secondAttribute="bottom" id="MWC-Ff-WBl"/>
+                            <constraint firstItem="qj9-UR-XzV" firstAttribute="centerX" secondItem="LRL-tR-KsU" secondAttribute="centerX" id="Y0B-sx-Dvd"/>
+                            <constraint firstItem="WXb-DY-Fz9" firstAttribute="top" secondItem="LRL-tR-KsU" secondAttribute="top" constant="20" id="gOf-8f-mSx"/>
+                            <constraint firstItem="WXb-DY-Fz9" firstAttribute="centerX" secondItem="LRL-tR-KsU" secondAttribute="centerX" id="pUr-oj-8EY"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="showAppVersion" destination="WXb-DY-Fz9" id="7dT-tQ-lOA"/>
@@ -277,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OxP-Mc-mtJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800.00000000000011" y="37.5"/>
+            <point key="canvasLocation" x="797.60000000000002" y="36.431784107946029"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XM1-xl-4yP">
@@ -285,7 +299,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qD8-J4-M2n" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Sc-wb-HZF">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -302,11 +316,11 @@
             <objects>
                 <viewController id="FW1-LQ-Xi3" customClass="MealViewController" customModule="myCookLessons1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tON-Yf-WAJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Enter meal name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AoX-yZ-Xmr">
-                                <rect key="frame" x="20" y="77" width="374" height="51.333333333333343"/>
+                                <rect key="frame" x="20" y="79" width="719" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="505" id="8Az-n7-VXb">
                                         <variation key="heightClass=regular-widthClass=regular" constant="719"/>
@@ -342,7 +356,7 @@
                                 </variation>
                             </textField>
                             <textView opaque="NO" contentMode="scaleToFill" keyboardDismissMode="interactive" text="lessons learned" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-1a-xQf">
-                                <rect key="frame" x="20" y="119" width="374" height="151"/>
+                                <rect key="frame" x="20" y="146" width="984" height="230"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="151" id="MSs-Lg-i1B">
@@ -361,16 +375,8 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 </variation>
                             </textView>
-                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahU-HD-tGB" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
-                                <rect key="frame" x="20" y="639" width="220" height="44"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="starCount">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </stackView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEz-S6-eef">
-                                <rect key="frame" x="20" y="278" width="374" height="353"/>
+                                <rect key="frame" x="20" y="399" width="971" height="897"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="6H9-1u-E5L">
@@ -386,7 +392,7 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" clearsContextBeforeDrawing="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ey3-Mg-NdY">
-                                <rect key="frame" x="152.33333333333334" y="439" width="109.66666666666666" height="30"/>
+                                <rect key="frame" x="432" y="831" width="147" height="32.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ey3-Mg-NdY" secondAttribute="height" multiplier="68:15" id="6Ex-Zd-gxh"/>
                                 </constraints>
@@ -410,7 +416,16 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahU-HD-tGB" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
+                                <rect key="frame" x="20" y="1304" width="220" height="44"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="nga-D5-NDd"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <constraints>
@@ -420,13 +435,10 @@
                             <constraint firstItem="Ey3-Mg-NdY" firstAttribute="centerX" secondItem="TEz-S6-eef" secondAttribute="centerX" id="0v9-mg-oi2">
                                 <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="ahU-HD-tGB" firstAttribute="leading" secondItem="nga-D5-NDd" secondAttribute="leading" constant="20" id="1Br-SS-KKK">
-                                <variation key="heightClass=regular-widthClass=regular" constant="784"/>
-                            </constraint>
                             <constraint firstItem="nga-D5-NDd" firstAttribute="trailing" secondItem="AoX-yZ-Xmr" secondAttribute="trailing" constant="20" id="1hP-BO-sXv"/>
                             <constraint firstItem="6pC-1a-xQf" firstAttribute="trailing" secondItem="tON-Yf-WAJ" secondAttribute="trailingMargin" id="6rx-oo-nWQ"/>
+                            <constraint firstItem="ahU-HD-tGB" firstAttribute="leading" secondItem="nga-D5-NDd" secondAttribute="leading" constant="20" id="7k8-Wp-85E"/>
                             <constraint firstItem="AoX-yZ-Xmr" firstAttribute="top" secondItem="nga-D5-NDd" secondAttribute="top" constant="14" id="8VA-vW-jf8"/>
-                            <constraint firstItem="ahU-HD-tGB" firstAttribute="leading" secondItem="nga-D5-NDd" secondAttribute="leading" constant="784" id="FNy-5U-LBP"/>
                             <constraint firstItem="AoX-yZ-Xmr" firstAttribute="top" secondItem="nga-D5-NDd" secondAttribute="top" constant="35" id="HA4-f4-vkv"/>
                             <constraint firstItem="TEz-S6-eef" firstAttribute="leading" secondItem="AoX-yZ-Xmr" secondAttribute="leading" id="HUx-8Z-jlJ"/>
                             <constraint firstItem="AoX-yZ-Xmr" firstAttribute="leading" secondItem="nga-D5-NDd" secondAttribute="leading" constant="20" id="NSZ-In-bK8"/>
@@ -437,16 +449,13 @@
                             <constraint firstItem="6pC-1a-xQf" firstAttribute="top" secondItem="nga-D5-NDd" secondAttribute="top" constant="55" id="jZK-Gp-ICr">
                                 <variation key="heightClass=regular-widthClass=regular" constant="96"/>
                             </constraint>
-                            <constraint firstItem="ahU-HD-tGB" firstAttribute="top" secondItem="nga-D5-NDd" secondAttribute="top" constant="29" id="lOH-77-oYl"/>
+                            <constraint firstItem="ahU-HD-tGB" firstAttribute="top" secondItem="TEz-S6-eef" secondAttribute="bottom" constant="8" id="jpj-rg-73B"/>
                             <constraint firstItem="AoX-yZ-Xmr" firstAttribute="top" secondItem="nga-D5-NDd" secondAttribute="top" constant="29" id="n4g-i5-49t"/>
+                            <constraint firstItem="ahU-HD-tGB" firstAttribute="leading" secondItem="TEz-S6-eef" secondAttribute="leading" id="pV1-cV-tHj"/>
                             <constraint firstItem="TEz-S6-eef" firstAttribute="top" secondItem="6pC-1a-xQf" secondAttribute="bottom" constant="8" id="uJw-B3-qUJ">
                                 <variation key="heightClass=regular-widthClass=regular" constant="23"/>
                             </constraint>
-                            <constraint firstItem="ahU-HD-tGB" firstAttribute="top" secondItem="TEz-S6-eef" secondAttribute="bottom" constant="8" id="wWm-8S-TrC">
-                                <variation key="heightClass=regular-widthClass=regular" constant="-1217"/>
-                            </constraint>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="nga-D5-NDd"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="1hP-BO-sXv"/>
@@ -457,8 +466,6 @@
                                 <exclude reference="VMc-jA-Dq8"/>
                                 <exclude reference="XIO-jH-BEp"/>
                                 <exclude reference="n4g-i5-49t"/>
-                                <exclude reference="FNy-5U-LBP"/>
-                                <exclude reference="lOH-77-oYl"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -479,10 +486,6 @@
                             <mask key="constraints">
                                 <include reference="NSZ-In-bK8"/>
                                 <include reference="n4g-i5-49t"/>
-                                <exclude reference="1Br-SS-KKK"/>
-                                <include reference="FNy-5U-LBP"/>
-                                <include reference="lOH-77-oYl"/>
-                                <exclude reference="wWm-8S-TrC"/>
                             </mask>
                         </variation>
                         <connections>
@@ -535,7 +538,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m9d-jR-XlD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GYT-A7-YAt">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
