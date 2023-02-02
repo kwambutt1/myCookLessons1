@@ -229,7 +229,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     // MARK: Actions
     
     @IBAction func selectImageFromLibrary(_ sender: UITapGestureRecognizer) {
-       
+    
         if lessonsLearnedTextView.isFirstResponder {
             lessonsLearnedTextView.resignFirstResponder()
             
@@ -253,7 +253,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     }// end of @IBAction func selectImageFromLibrary
     
     
+    
     @IBAction func TappedToResignKeyboard(_ sender: UITapGestureRecognizer) {
+   
         
         lessonsLearnedTextView.resignFirstResponder()
      

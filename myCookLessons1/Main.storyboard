@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMy-cj-GfD">
-    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -13,19 +13,19 @@
             <objects>
                 <tableViewController id="f2n-11-lTk" customClass="MealTableViewController" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Avl-iX-XWY">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="MCc-xb-mv8" customClass="MealTableViewCell" customModule="myCookLessons1" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="1024" height="90"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MCc-xb-mv8" id="1wx-V1-m3O">
-                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qnu-0W-PCP">
-                                            <rect key="frame" x="20" y="15" width="60" height="60"/>
+                                            <rect key="frame" x="20" y="15.000000000000004" width="60" height="60.333333333333343"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="4Qu-wY-QPu"/>
                                                 <constraint firstAttribute="height" constant="60" id="GOH-zT-1hU"/>
@@ -64,7 +64,7 @@
                                             </variation>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="-1" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-1g-asE">
-                                            <rect key="frame" x="104" y="15" width="603" height="60"/>
+                                            <rect key="frame" x="88" y="5" width="305" height="27"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="603" id="WMJ-k9-8Ty"/>
                                             </constraints>
@@ -95,7 +95,7 @@
                                             </variation>
                                         </label>
                                         <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mlG-s9-OqW" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
-                                            <rect key="frame" x="752" y="23" width="252" height="44"/>
+                                            <rect key="frame" x="88" y="35" width="307" height="44"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="212" id="7hw-ch-qp6"/>
                                             </constraints>
@@ -236,11 +236,11 @@
             <objects>
                 <viewController id="UMy-cj-GfD" customClass="Entry" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PA2-DD-nT4">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBm-sO-s3B">
-                                <rect key="frame" x="20" y="181" width="984" height="1033"/>
+                                <rect key="frame" x="20" y="157" width="374" height="447"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">You can save Your "lessons learned" when cooking a meal, add a photo an rate the taste. So You continuously can improve Your results</string>
@@ -254,7 +254,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WXb-DY-Fz9">
-                                <rect key="frame" x="20" y="24" width="984" height="149"/>
+                                <rect key="frame" x="20" y="0.0" width="374" height="149"/>
                                 <color key="tintColor" red="0.86660055049999996" green="0.17562872390000001" blue="0.24946206309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="149" id="X1a-6N-6mT"/>
@@ -271,7 +271,7 @@
                                 <color key="highlightedColor" red="1" green="0.50806887590000005" blue="0.4399681506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj9-UR-XzV">
-                                <rect key="frame" x="20" y="1202.5" width="984" height="123.5"/>
+                                <rect key="frame" x="20" y="592.66666666666663" width="374" height="123.33333333333337"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Enter">
@@ -311,6 +311,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OxP-Mc-mtJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="TUh-pk-Ytn"/>
             </objects>
             <point key="canvasLocation" x="793.125" y="33.802816901408448"/>
         </scene>
@@ -320,7 +321,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qD8-J4-M2n" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Sc-wb-HZF">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -337,11 +338,11 @@
             <objects>
                 <viewController id="FW1-LQ-Xi3" customClass="MealViewController" customModule="myCookLessons1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tON-Yf-WAJ">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Enter meal name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AoX-yZ-Xmr">
-                                <rect key="frame" x="20" y="63" width="984" height="57"/>
+                                <rect key="frame" x="20" y="57" width="374" height="57"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Enter meal name">
                                         <attributes>
@@ -355,8 +356,9 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textView opaque="NO" contentMode="scaleToFill" keyboardDismissMode="interactive" text="lessons learned" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-1a-xQf">
-                                <rect key="frame" x="20" y="110" width="988" height="320"/>
+                                <rect key="frame" x="20" y="104" width="378" height="122.33333333333331"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6pC-1a-xQf" secondAttribute="height" multiplier="71:23" id="eKy-oy-Ahp"/>
                                 </constraints>
@@ -373,17 +375,17 @@
                                 </variation>
                             </textView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TEz-S6-eef">
-                                <rect key="frame" x="20" y="438" width="984" height="889"/>
+                                <rect key="frame" x="20" y="234.33333333333337" width="374" height="338"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TEz-S6-eef" secondAttribute="height" multiplier="280:253" id="OcV-PU-dNY"/>
                                 </constraints>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="0Ln-y7-4Hs" appends="YES" id="Avp-gH-Xxc"/>
+                                    <outletCollection property="gestureRecognizers" destination="CPv-vh-v4s" appends="YES" id="Kb4-zE-Zza"/>
                                 </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahU-HD-tGB" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
-                                <rect key="frame" x="16" y="1252" width="220" height="44"/>
+                                <rect key="frame" x="16" y="643" width="220" height="44"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starCount">
                                         <integer key="value" value="5"/>
@@ -391,7 +393,11 @@
                                 </userDefinedRuntimeAttributes>
                             </stackView>
                             <label opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ey3-Mg-NdY">
-                                <rect key="frame" x="107" y="316" width="814" height="816"/>
+                                <rect key="frame" x="107" y="310" width="204" height="213"/>
+                                <accessibility key="accessibilityConfiguration" identifier="AddLabel">
+                                    <accessibilityTraits key="traits" button="YES" staticText="YES"/>
+                                </accessibility>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -401,6 +407,10 @@
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="TUh-pk-Ytn" appends="YES" id="rSA-gY-4qO"/>
+                                    <outletCollection property="gestureRecognizers" destination="Pgr-FO-Dre" appends="YES" id="a5j-gc-bIW"/>
+                                </connections>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nga-D5-NDd"/>
@@ -422,9 +432,6 @@
                             <constraint firstItem="nga-D5-NDd" firstAttribute="bottom" secondItem="Ey3-Mg-NdY" secondAttribute="bottom" constant="164" id="uaA-jv-1ma"/>
                             <constraint firstItem="nga-D5-NDd" firstAttribute="trailing" secondItem="TEz-S6-eef" secondAttribute="trailing" constant="20" id="uai-Ji-kvk"/>
                         </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="oXp-Jj-rcm" appends="YES" id="6pm-9M-OTK"/>
-                        </connections>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="New Meal" id="uhb-0O-4Fa">
@@ -453,14 +460,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9f-pw-6Hb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="y96-R3-CWf" userLabel="Exit" sceneMemberID="exit"/>
-                <tapGestureRecognizer id="0Ln-y7-4Hs">
+                <tapGestureRecognizer id="Pgr-FO-Dre">
                     <connections>
-                        <action selector="selectImageFromLibrary:" destination="FW1-LQ-Xi3" id="M5E-aK-jRb"/>
+                        <action selector="selectImageFromLibrary:" destination="FW1-LQ-Xi3" id="siW-Nu-hni"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="oXp-Jj-rcm">
+                <tapGestureRecognizer id="CPv-vh-v4s">
                     <connections>
-                        <action selector="TappedToResignKeyboard:" destination="FW1-LQ-Xi3" id="Boi-fI-B8r"/>
+                        <action selector="TappedToResignKeyboard:" destination="FW1-LQ-Xi3" id="lKv-Zh-cdV"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -472,7 +479,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m9d-jR-XlD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GYT-A7-YAt">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -486,6 +493,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RmC-dX-1LN"/>
+        <segue reference="kzY-Dl-aMd"/>
     </inferredMetricsTieBreakers>
 </document>
