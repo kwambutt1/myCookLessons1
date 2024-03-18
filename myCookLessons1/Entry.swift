@@ -27,7 +27,11 @@ class Entry: UIViewController, UINavigationControllerDelegate {
         
     }
     
-
+    @IBAction func accountButton(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "account", sender: nil)
+    }
+    
     
     @IBAction func enterbutton(_ sender: UIButton) {
         

@@ -9,7 +9,7 @@
 import UIKit
 import os.log
 
-    class MealTableViewController1: UITableViewController {
+    class MealTableViewController: UITableViewController {
                
                 
                 
