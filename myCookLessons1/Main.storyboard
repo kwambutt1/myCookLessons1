@@ -380,13 +380,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter meal name" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AoX-yZ-Xmr">
-                                <rect key="frame" x="20" y="77" width="335" height="52"/>
+                                <rect key="frame" x="20" y="33" width="335" height="52"/>
                                 <color key="textColor" red="0.17794150440327228" green="0.59231298575129543" blue="0.20128851783077015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textView opaque="NO" contentMode="scaleToFill" keyboardDismissMode="interactive" text="lessons learned" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-1a-xQf">
-                                <rect key="frame" x="20" y="119" width="339" height="110"/>
+                                <rect key="frame" x="20" y="75" width="339" height="110"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -406,7 +406,7 @@
                                 </variation>
                             </textView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TEz-S6-eef">
-                                <rect key="frame" x="20" y="237" width="335" height="302.5"/>
+                                <rect key="frame" x="20" y="193" width="335" height="302.5"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TEz-S6-eef" secondAttribute="height" multiplier="280:253" id="OcV-PU-dNY"/>
@@ -416,7 +416,7 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ey3-Mg-NdY">
-                                <rect key="frame" x="107" y="330" width="165" height="129"/>
+                                <rect key="frame" x="107" y="286" width="165" height="173"/>
                                 <accessibility key="accessibilityConfiguration" identifier="AddLabel">
                                     <accessibilityTraits key="traits" button="YES" staticText="YES"/>
                                 </accessibility>
@@ -470,6 +470,7 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="dA9-im-fz3">
                             <connections>
                                 <action selector="cancel:" destination="FW1-LQ-Xi3" id="pOS-R3-290"/>
+                                <segue destination="f2n-11-lTk" kind="show" identifier="back" id="vgZ-j4-R4M"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="D45-iX-odp">
@@ -532,10 +533,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="line" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h9g-vW-IHk">
-                                <rect key="frame" x="110" y="104" width="155" height="28"/>
+                                <rect key="frame" x="110" y="104" width="155" height="37"/>
                                 <color key="backgroundColor" red="0.92839831910000004" green="1" blue="0.63658750590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="h9g-vW-IHk" secondAttribute="height" multiplier="155:28" id="hwn-2H-7aU"/>
+                                    <constraint firstAttribute="width" secondItem="h9g-vW-IHk" secondAttribute="height" multiplier="155:28" constant="-49.821428571428555" id="hwn-2H-7aU"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="password">
@@ -779,7 +780,7 @@
                             <constraint firstItem="wLB-kM-efC" firstAttribute="top" secondItem="BXn-um-6vs" secondAttribute="bottom" constant="8" symbolic="YES" id="fRx-9m-JPm"/>
                             <constraint firstItem="daf-e3-b5Q" firstAttribute="trailing" secondItem="IbA-Pp-6yg" secondAttribute="trailing" id="gsa-fn-FKR"/>
                             <constraint firstItem="av5-7w-AuD" firstAttribute="centerX" secondItem="daf-e3-b5Q" secondAttribute="centerX" constant="1" id="k8t-fr-aa9"/>
-                            <constraint firstItem="av5-7w-AuD" firstAttribute="top" secondItem="h9g-vW-IHk" secondAttribute="bottom" constant="13" id="mdh-9P-lIA"/>
+                            <constraint firstItem="av5-7w-AuD" firstAttribute="top" secondItem="h9g-vW-IHk" secondAttribute="bottom" constant="4" id="mdh-9P-lIA"/>
                             <constraint firstItem="BXn-um-6vs" firstAttribute="trailing" secondItem="wLB-kM-efC" secondAttribute="trailing" id="ppC-lm-mud"/>
                             <constraint firstItem="lfm-qm-xs1" firstAttribute="top" secondItem="q2b-jy-ic5" secondAttribute="bottom" constant="35" id="qW3-Bh-cJV"/>
                             <constraint firstItem="YhD-K7-RRa" firstAttribute="leading" secondItem="iR2-mz-smv" secondAttribute="leading" id="sCw-Nl-qsq"/>
@@ -834,6 +835,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="RmC-dX-1LN"/>
-        <segue reference="5y6-b8-922"/>
+        <segue reference="TJL-Z1-2oA"/>
+        <segue reference="vgZ-j4-R4M"/>
     </inferredMetricsTieBreakers>
 </document>
