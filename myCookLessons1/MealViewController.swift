@@ -174,7 +174,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     @IBAction func cancel(_ sender: UIBarButtonItem) {
         
     //Depending om style of presentation(modal or push presentation), this view controllr needs to be dismissed in two different ways.
-        
+        /*
         let  isPresentingInAddMealMode = presentingViewController is UINavigationController
         
         if isPresentingInAddMealMode {
@@ -186,7 +186,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         else {
            fatalError("The MealViewController is not inside a navigation controller")
         }
-    
+    */
     }// end of IBAction func cancel
     
     
