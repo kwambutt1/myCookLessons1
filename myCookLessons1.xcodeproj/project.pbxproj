@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0B89BCCB2BA48F11003E40F7 /* selectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B89BCCA2BA48F11003E40F7 /* selectUser.swift */; };
 		DC57BE41293BB3D800DA2C0C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57BE40293BB3D800DA2C0C /* Entry.swift */; };
+		DC84EE232BB0148200887938 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE222BB0148200887938 /* MealTableViewController.swift */; };
 		DCD355472BA8CA9300DB1403 /* WebMealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD355452BA8CA9300DB1403 /* WebMealModel.swift */; };
 		DCD355482BA8CA9300DB1403 /* Homemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD355462BA8CA9300DB1403 /* Homemodel.swift */; };
 		DCE88EF02933D96400791498 /* myCookLessons1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */; };
-		DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFB2933D9B600791498 /* MealTableViewController.swift */; };
 		DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */; };
 		DCE88F102933D9B800791498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F002933D9B700791498 /* AppDelegate.swift */; };
 		DCE88F112933D9B800791498 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE88F012933D9B700791498 /* RatingControl.swift */; };
@@ -36,13 +36,13 @@
 /* Begin PBXFileReference section */
 		0B89BCCA2BA48F11003E40F7 /* selectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = selectUser.swift; path = ../../myFoods4/myFoods4/selectUser.swift; sourceTree = "<group>"; };
 		DC57BE40293BB3D800DA2C0C /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		DC84EE222BB0148200887938 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewController.swift; path = ../../myFoods4/myFoods4/MealTableViewController.swift; sourceTree = "<group>"; };
 		DCD355452BA8CA9300DB1403 /* WebMealModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebMealModel.swift; sourceTree = "<group>"; };
 		DCD355462BA8CA9300DB1403 /* Homemodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homemodel.swift; sourceTree = "<group>"; };
 		DCE88ED72933D96100791498 /* myCookLessons1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCookLessons1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE88EEB2933D96400791498 /* myCookLessons1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCookLessons1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE88EEF2933D96400791498 /* myCookLessons1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCookLessons1Tests.swift; sourceTree = "<group>"; };
 		DCE88EF12933D96400791498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCE88EFB2933D9B600791498 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		DCE88F002933D9B700791498 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE88F012933D9B700791498 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
@@ -92,6 +92,7 @@
 		DCE88ED92933D96100791498 /* myCookLessons1 */ = {
 			isa = PBXGroup;
 			children = (
+				DC84EE222BB0148200887938 /* MealTableViewController.swift */,
 				DCD355462BA8CA9300DB1403 /* Homemodel.swift */,
 				DCD355452BA8CA9300DB1403 /* WebMealModel.swift */,
 				0B89BCCA2BA48F11003E40F7 /* selectUser.swift */,
@@ -102,7 +103,6 @@
 				DC57BE40293BB3D800DA2C0C /* Entry.swift */,
 				DCE88F082933D9B800791498 /* Meal.swift */,
 				DCE88EFD2933D9B700791498 /* MealTableViewCell.swift */,
-				DCE88EFB2933D9B600791498 /* MealTableViewController.swift */,
 				DCE88F022933D9B700791498 /* MealViewController.swift */,
 				DCE88F012933D9B700791498 /* RatingControl.swift */,
 			);
@@ -220,11 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC84EE232BB0148200887938 /* MealTableViewController.swift in Sources */,
 				DC57BE41293BB3D800DA2C0C /* Entry.swift in Sources */,
 				DCE88F0D2933D9B800791498 /* MealTableViewCell.swift in Sources */,
 				0B89BCCB2BA48F11003E40F7 /* selectUser.swift in Sources */,
 				DCD355472BA8CA9300DB1403 /* WebMealModel.swift in Sources */,
-				DCE88F0B2933D9B800791498 /* MealTableViewController.swift in Sources */,
 				DCE88F172933D9B800791498 /* Meal.swift in Sources */,
 				DCE88F122933D9B800791498 /* MealViewController.swift in Sources */,
 				DCE88F102933D9B800791498 /* AppDelegate.swift in Sources */,
