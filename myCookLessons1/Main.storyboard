@@ -137,10 +137,6 @@
                                             <exclude reference="XDZ-js-oed"/>
                                             <exclude reference="kv2-Nh-lNB"/>
                                             <exclude reference="nsH-pJ-cw6"/>
-                                            <exclude reference="Ddx-cp-VrZ"/>
-                                            <exclude reference="Dj1-rU-lig"/>
-                                            <exclude reference="XeA-dY-iTJ"/>
-                                            <exclude reference="Y1p-ET-0mD"/>
                                             <exclude reference="LvV-iQ-5Fg"/>
                                             <exclude reference="Pg8-eh-Rgg"/>
                                             <exclude reference="VKM-Kv-KZL"/>
@@ -151,6 +147,10 @@
                                             <exclude reference="pyO-6Z-Cau"/>
                                             <exclude reference="qtG-w5-RIQ"/>
                                             <exclude reference="xHG-v9-f2a"/>
+                                            <exclude reference="Ddx-cp-VrZ"/>
+                                            <exclude reference="Dj1-rU-lig"/>
+                                            <exclude reference="XeA-dY-iTJ"/>
+                                            <exclude reference="Y1p-ET-0mD"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=compact-widthClass=compact">
@@ -168,28 +168,28 @@
                                             <include reference="Em3-HK-2lf"/>
                                             <include reference="UBd-VK-bw8"/>
                                             <include reference="XDZ-js-oed"/>
-                                            <exclude reference="8eh-Eb-cc5"/>
-                                            <include reference="Dj1-rU-lig"/>
-                                            <exclude reference="zdi-5J-w7N"/>
                                             <include reference="LvV-iQ-5Fg"/>
                                             <include reference="pyO-6Z-Cau"/>
                                             <include reference="qtG-w5-RIQ"/>
+                                            <exclude reference="8eh-Eb-cc5"/>
+                                            <include reference="Dj1-rU-lig"/>
+                                            <exclude reference="zdi-5J-w7N"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=regular">
                                         <mask key="constraints">
                                             <include reference="3zv-t4-sYf"/>
                                             <include reference="6iL-Vo-hzb"/>
+                                            <include reference="VKM-Kv-KZL"/>
+                                            <include reference="bMF-Uy-ACg"/>
+                                            <include reference="hgy-yn-zuP"/>
+                                            <include reference="oeg-0I-9qZ"/>
                                             <exclude reference="8eh-Eb-cc5"/>
                                             <include reference="Ddx-cp-VrZ"/>
                                             <exclude reference="XLe-11-0tx"/>
                                             <include reference="XeA-dY-iTJ"/>
                                             <include reference="Y1p-ET-0mD"/>
                                             <exclude reference="zdi-5J-w7N"/>
-                                            <include reference="VKM-Kv-KZL"/>
-                                            <include reference="bMF-Uy-ACg"/>
-                                            <include reference="hgy-yn-zuP"/>
-                                            <include reference="oeg-0I-9qZ"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
@@ -598,13 +598,13 @@
                                 <rect key="frame" x="20" y="94" width="984" height="1232"/>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="new username" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="daf-e3-b5Q">
-                                <rect key="frame" x="355" y="653" width="314" height="72.5"/>
+                                <rect key="frame" x="323.5" y="653" width="377" height="72.5"/>
                                 <color key="backgroundColor" red="0.92839831910000004" green="1" blue="0.63658750590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="9IY-Tz-aPs"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="Fsb-KD-up2"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -612,20 +612,20 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="9IY-Tz-aPs"/>
                                     </mask>
                                 </variation>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="new password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="IbA-Pp-6yg">
-                                <rect key="frame" x="357" y="754.5" width="310" height="71"/>
+                                <rect key="frame" x="318.5" y="754.5" width="387" height="71"/>
                                 <color key="backgroundColor" red="0.92839831910000004" green="1" blue="0.63658750590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="H3n-hh-m13"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="FSM-cf-BaL"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -633,19 +633,19 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="H3n-hh-m13"/>
                                     </mask>
                                 </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" layoutMarginsFollowReadableWidth="YES" text="user already exists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yy4-gf-Lgj">
-                                <rect key="frame" x="317" y="832.5" width="390.5" height="113"/>
+                                <rect key="frame" x="257" y="832.5" width="510" height="113"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="Loh-5r-Hmi"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="jzb-TM-eAu"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
                                 <color key="textColor" red="1" green="0.50806887590000005" blue="0.4399681506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -654,20 +654,20 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="Loh-5r-Hmi"/>
                                     </mask>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="you are not connected with the internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wLB-kM-efC">
-                                <rect key="frame" x="157" y="1070" width="710" height="105"/>
+                                <rect key="frame" x="35" y="1070" width="954.5" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="TZf-ad-PzV"/>
                                     <constraint firstAttribute="height" constant="23" id="ls4-gp-irG"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="j5j-En-Bqm"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="43"/>
                                 <color key="textColor" red="0.88528173580000002" green="0.075286741229999996" blue="0.088456196269999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -677,7 +677,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="15"/>
                                     <mask key="constraints">
                                         <include reference="TZf-ad-PzV"/>
                                         <exclude reference="ls4-gp-irG"/>
@@ -685,12 +685,12 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" text="Not yet registered ? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iR2-mz-smv" userLabel="Not yet registered?">
-                                <rect key="frame" x="151.5" y="538" width="721.5" height="91"/>
+                                <rect key="frame" x="21.5" y="538" width="981.5" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39.5" id="Uub-9e-kw1"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="Jtz-y5-LTy"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="87"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="83"/>
                                 <color key="textColor" red="0.88528173580000002" green="0.075286741229999996" blue="0.088456196269999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -699,19 +699,19 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="33"/>
                                     <mask key="constraints">
                                         <include reference="Uub-9e-kw1"/>
                                     </mask>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="av5-7w-AuD">
-                                <rect key="frame" x="423" y="336" width="178" height="91"/>
+                                <rect key="frame" x="374" y="336" width="276" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="neO-cJ-VCz"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="eAM-FV-1gL"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="70"/>
                                 <state key="normal" title="Log in">
                                     <color key="titleColor" red="0.38799179830000002" green="1" blue="0.42288054000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -721,25 +721,22 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="46"/>
                                     <mask key="constraints">
                                         <include reference="neO-cJ-VCz"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 </variation>
                                 <connections>
                                     <action selector="logIn:" destination="CPP-sB-FnG" eventType="touchUpInside" id="tof-kC-Fyh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="You are not connected with the internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vsN-0e-M4i">
-                                <rect key="frame" x="156" y="437" width="712" height="91"/>
+                                <rect key="frame" x="29" y="437" width="966.5" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="4yF-A9-ifk"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="Oge-Zy-QiO"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="43"/>
                                 <color key="textColor" red="1" green="0.50806887590000005" blue="0.4399681506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -748,19 +745,19 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="15"/>
                                     <mask key="constraints">
                                         <include reference="4yF-A9-ifk"/>
                                     </mask>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" text="incorrect password or user" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfm-qm-xs1">
-                                <rect key="frame" x="232.5" y="243.5" width="559" height="92.5"/>
+                                <rect key="frame" x="243.5" y="243.5" width="537" height="92.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="pWj-QB-9R2"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="oVg-2Q-9Qc"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="37"/>
                                 <color key="textColor" red="1" green="0.50806887590000005" blue="0.4399681506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -769,19 +766,19 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="pWj-QB-9R2"/>
                                     </mask>
                                 </variation>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="753" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="7Q6-dg-tb3">
-                                <rect key="frame" x="406.5" y="185" width="211" height="66"/>
+                                <rect key="frame" x="383.5" y="185" width="257" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Hks-tH-Bly"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -789,19 +786,19 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="Hks-tH-Bly"/>
                                     </mask>
                                 </variation>
                             </textField>
                             <textField opaque="NO" tag="-3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="n9L-w8-5cb">
-                                <rect key="frame" x="404.5" y="94" width="215" height="75"/>
+                                <rect key="frame" x="388.5" y="94" width="247" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="WeG-yk-g1J"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -809,19 +806,19 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="WeG-yk-g1J"/>
                                     </mask>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXn-um-6vs">
-                                <rect key="frame" x="321.5" y="955.5" width="381" height="104.5"/>
+                                <rect key="frame" x="250" y="955.5" width="524" height="104.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="I4V-Xc-5T8"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="4nr-CR-m9J"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="70"/>
                                 <state key="normal" title="Register now"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -829,13 +826,10 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                     <mask key="constraints">
                                         <include reference="I4V-Xc-5T8"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 </variation>
                                 <connections>
                                     <action selector="registerNow:" destination="CPP-sB-FnG" eventType="touchUpInside" id="hKB-tR-wWY"/>
@@ -997,8 +991,8 @@
                                 <exclude reference="Kjv-Gt-f8G"/>
                                 <include reference="Kt1-uK-hVx"/>
                                 <exclude reference="bfi-fs-SW5"/>
-                                <exclude reference="1cQ-2h-ksT"/>
                                 <exclude reference="bhf-oE-a2N"/>
+                                <exclude reference="1cQ-2h-ksT"/>
                                 <exclude reference="7Tx-Rb-mTJ"/>
                                 <exclude reference="EDy-jv-3Xm"/>
                                 <include reference="TUc-8e-6wI"/>
@@ -1057,7 +1051,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="kzY-Dl-aMd"/>
-        <segue reference="5y6-b8-922"/>
+        <segue reference="TJL-Z1-2oA"/>
         <segue reference="vgZ-j4-R4M"/>
     </inferredMetricsTieBreakers>
 </document>
