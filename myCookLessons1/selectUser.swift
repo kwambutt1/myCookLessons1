@@ -19,12 +19,14 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
     static var username: String = ""
     var Password: String = ""
     var test: String = ""
+    var bundleidentifier: String = ""
     
     
+   
     @IBOutlet weak var userName: UITextField!
     
     @IBOutlet weak var password: UITextField!
-   
+    
     @IBOutlet weak var newUserName: UITextField!
     
     @IBOutlet weak var newPassword: UITextField!
@@ -52,7 +54,9 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
     // Do any additional setup after loading the view.
      
         let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
-        self.showAppVersion.text = "myCookLessons v \(String(describing: appVersion))"
+        //self.showAppVersion.text = "myCookLessons v \(String(describing: appVersion))"
+        
+        bundleidentifier = "com.Wambutt.myFoods4"
         
         userName.delegate = self
         password.delegate = self
@@ -80,7 +84,7 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
         
         //collect the values fom Text Fields
         
-        let postString1 = "a=\(selectUser.username)&b=\(Password)"
+        let postString1 = "a=\(selectUser.username)&b=\(Password)&c=\(bundleidentifier)"
         
         // encoding the textvalues in utf8
         
@@ -139,6 +143,8 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
         */
         
     } // end IBaction logIn
+    
+    
 
     // MARK: UITextFieldDelegate
     
@@ -149,8 +155,7 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
         if newUserName.isFirstResponder {newUserName.text = ""}
         if newPassword.isFirstResponder {newPassword.text = ""}
         
-        
-    }
+        }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
@@ -161,10 +166,11 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        
        
         
     }
+    
+    
     
     
     @IBAction func registerNow(_ sender: UIButton) {
@@ -175,12 +181,12 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
         
     //Check if username already exists
         
-    var request1 = URLRequest(url: URL(string: "https://www.wambutt.de/mobileapp/mysql/checkusername2")! as URL)
+    var request1 = URLRequest(url: URL(string: "https://www.wambutt.de/mobileapp/mysql/createusername")! as URL)
         request1.httpMethod = "POST"
         
     //collect the values fom Text Fields
         
-    let postString1 = "a=\(newUser)&b=\(newUserPassword)"
+    let postString1 = "a=\(newUser)&b=\(newUserPassword)&c=\(bundleidentifier)"
         
     // encoding the textvalues in utf8
         
@@ -216,7 +222,8 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
         task1.resume()
        
          
-   
+        newUserName.text = "new username"
+        newPassword.text = "new password"
         
     }//end of register now
     
@@ -234,7 +241,7 @@ class selectUser: UIViewController, UITextFieldDelegate,UINavigationControllerDe
         
         //collect the values fom Text Fields
         
-        let postString2 = "a=\(newUser)&b=\(newUserPassword)"
+        let postString2 = "a=\(newUser)&b=\(newUserPassword)&c=\(bundleidentifier)"
         
         // encoding the textvalues in utf8
         
