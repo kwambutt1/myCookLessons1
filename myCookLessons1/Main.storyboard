@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMy-cj-GfD">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -13,19 +13,19 @@
             <objects>
                 <tableViewController id="f2n-11-lTk" customClass="MealTableViewController" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Avl-iX-XWY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="MCc-xb-mv8" customClass="MealTableViewCell" customModule="myCookLessons1" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="414" height="90"/>
+                                <rect key="frame" x="0.0" y="50" width="704" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MCc-xb-mv8" id="1wx-V1-m3O">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="704" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qnu-0W-PCP">
-                                            <rect key="frame" x="20" y="15.000000000000004" width="60" height="60.333333333333343"/>
+                                            <rect key="frame" x="20" y="15" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="4Qu-wY-QPu"/>
                                                 <constraint firstAttribute="height" constant="60" id="GOH-zT-1hU"/>
@@ -64,7 +64,7 @@
                                             </variation>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="-1" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-1g-asE">
-                                            <rect key="frame" x="104" y="9" width="290" height="39"/>
+                                            <rect key="frame" x="104" y="15" width="357" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="255" id="CaK-xM-HAh"/>
                                             </constraints>
@@ -77,14 +77,14 @@
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
-                                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                                 <mask key="constraints">
                                                     <include reference="CaK-xM-HAh"/>
                                                 </mask>
                                             </variation>
                                         </label>
                                         <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mlG-s9-OqW" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
-                                            <rect key="frame" x="194" y="51" width="200" height="35"/>
+                                            <rect key="frame" x="484" y="22" width="200" height="35"/>
                                             <viewLayoutGuide key="safeArea" id="vOX-NM-k5N"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="35" id="Wbq-S7-iXt"/>
@@ -227,11 +227,11 @@
             <objects>
                 <viewController id="UMy-cj-GfD" customClass="Entry" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PA2-DD-nT4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBm-sO-s3B">
-                                <rect key="frame" x="20" y="61" width="374" height="191"/>
+                                <rect key="frame" x="20" y="119" width="984" height="449"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="449" id="C5X-rt-XXc">
                                         <variation key="heightClass=regular-widthClass=compact" constant="191"/>
@@ -262,7 +262,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="myCookLessons v. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WXb-DY-Fz9">
-                                <rect key="frame" x="63.666666666666657" y="-9" width="286.66666666666674" height="71"/>
+                                <rect key="frame" x="236.5" y="-9" width="551.5" height="131"/>
                                 <color key="tintColor" red="0.86660055049999996" green="0.17562872390000001" blue="0.24946206309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="131" id="ycs-Yt-6HM">
@@ -277,7 +277,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhe-6k-ErT">
-                                <rect key="frame" x="20" y="304" width="374" height="145"/>
+                                <rect key="frame" x="20" y="841" width="984" height="238"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="238" id="p90-y6-fAF">
                                         <variation key="heightClass=regular-widthClass=compact" constant="145"/>
@@ -305,7 +305,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj9-UR-XzV">
-                                <rect key="frame" x="150" y="637" width="114" height="79"/>
+                                <rect key="frame" x="455" y="1244" width="114" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="NHU-uU-rMV">
                                         <variation key="heightClass=regular-widthClass=compact" constant="79"/>
@@ -328,7 +328,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="If You Like to work only at this device please enter here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ysl-G3-5kR">
-                                <rect key="frame" x="20" y="478" width="374" height="152"/>
+                                <rect key="frame" x="20" y="1108" width="984" height="152"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="152" id="VlC-Ji-HJi"/>
                                 </constraints>
@@ -340,7 +340,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VQ2-aR-gxq">
-                                <rect key="frame" x="167" y="370" width="80" height="109"/>
+                                <rect key="frame" x="472" y="963" width="80" height="137"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="137" id="Mg7-qK-2pN">
                                         <variation key="heightClass=regular-widthClass=compact" constant="109"/>
@@ -407,7 +407,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="dqv-hm-btC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Sc-wb-HZF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -424,11 +424,11 @@
             <objects>
                 <viewController id="FW1-LQ-Xi3" customClass="MealViewController" customModule="myCookLessons1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tON-Yf-WAJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter meal name" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Enter meal name" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AoX-yZ-Xmr">
-                                <rect key="frame" x="20" y="32.999999999999993" width="374" height="94.333333333333314"/>
+                                <rect key="frame" x="20" y="13" width="664" height="145"/>
                                 <color key="textColor" red="0.17794150440327228" green="0.59231298575129543" blue="0.20128851783077015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -437,7 +437,7 @@
                                 </variation>
                             </textField>
                             <textView opaque="NO" contentMode="scaleToFill" keyboardDismissMode="interactive" text="lessons learned" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-1a-xQf">
-                                <rect key="frame" x="20" y="117.33333333333334" width="378" height="109.33333333333334"/>
+                                <rect key="frame" x="20" y="148" width="668" height="174.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -453,7 +453,7 @@
                                 </variation>
                             </textView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TEz-S6-eef">
-                                <rect key="frame" x="20" y="234.66666666666663" width="374" height="376"/>
+                                <rect key="frame" x="103" y="330.5" width="494" height="492.5"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TEz-S6-eef" secondAttribute="height" multiplier="164:167" constant="10.023952095808454" id="U3j-zT-8Dx">
@@ -465,7 +465,7 @@
                                 </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahU-HD-tGB" customClass="RatingControl" customModule="myCookLessons1" customModuleProvider="target">
-                                <rect key="frame" x="16" y="643" width="220" height="44"/>
+                                <rect key="frame" x="16" y="901.5" width="220" height="44"/>
                                 <viewLayoutGuide key="safeArea" id="6d5-Oz-t9K"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="jFH-vN-Rzw"/>
@@ -478,7 +478,7 @@
                                 </userDefinedRuntimeAttributes>
                             </stackView>
                             <label opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ey3-Mg-NdY">
-                                <rect key="frame" x="152.33333333333334" y="508" width="109.66666666666666" height="30"/>
+                                <rect key="frame" x="107" y="524" width="494" height="229.5"/>
                                 <accessibility key="accessibilityConfiguration" identifier="AddLabel">
                                     <accessibilityTraits key="traits" button="YES" staticText="YES"/>
                                 </accessibility>
@@ -596,7 +596,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m9d-jR-XlD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GYT-A7-YAt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -613,14 +613,14 @@
             <objects>
                 <viewController title="selectUser" id="CPP-sB-FnG" customClass="selectUser" customModule="myCookLessons1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bfy-Z3-kUZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="czq-PS-3Re">
-                                <rect key="frame" x="23" y="64" width="368" height="652"/>
+                                <rect key="frame" x="20" y="70" width="984" height="1276"/>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="new username" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="daf-e3-b5Q">
-                                <rect key="frame" x="113.66666666666669" y="295" width="187" height="29"/>
+                                <rect key="frame" x="325.5" y="653" width="373" height="76.5"/>
                                 <viewLayoutGuide key="safeArea" id="Fsb-KD-up2"/>
                                 <color key="backgroundColor" red="0.92839831910000004" green="1" blue="0.63658750590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -641,7 +641,7 @@
                                 </variation>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="new password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="IbA-Pp-6yg">
-                                <rect key="frame" x="111" y="330" width="192" height="29"/>
+                                <rect key="frame" x="320.5" y="758.5" width="383" height="75"/>
                                 <viewLayoutGuide key="safeArea" id="FSM-cf-BaL"/>
                                 <color key="backgroundColor" red="0.92839831910000004" green="1" blue="0.63658750590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -662,7 +662,7 @@
                                 </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" layoutMarginsFollowReadableWidth="YES" text="user already exists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yy4-gf-Lgj">
-                                <rect key="frame" x="79.666666666666686" y="367" width="255" height="31"/>
+                                <rect key="frame" x="257" y="840.5" width="510" height="117.5"/>
                                 <viewLayoutGuide key="safeArea" id="jzb-TM-eAu"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="Loh-5r-Hmi"/>
@@ -683,7 +683,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="you are not connected with the internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wLB-kM-efC">
-                                <rect key="frame" x="40.666666666666657" y="449" width="333" height="36"/>
+                                <rect key="frame" x="35" y="1086" width="954.5" height="109"/>
                                 <viewLayoutGuide key="safeArea" id="j5j-En-Bqm"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="TZf-ad-PzV"/>
@@ -707,7 +707,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" text="Not yet registered ? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iR2-mz-smv" userLabel="Not yet registered?">
-                                <rect key="frame" x="12" y="247.66666666666666" width="390.33333333333331" height="39.333333333333343"/>
+                                <rect key="frame" x="21.5" y="534.5" width="981.5" height="94.5"/>
                                 <viewLayoutGuide key="safeArea" id="Jtz-y5-LTy"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39.5" id="Uub-9e-kw1"/>
@@ -728,7 +728,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="av5-7w-AuD">
-                                <rect key="frame" x="116.66666666666669" y="156" width="181" height="52"/>
+                                <rect key="frame" x="374" y="324.5" width="276" height="95"/>
                                 <viewLayoutGuide key="safeArea" id="eAM-FV-1gL"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="neO-cJ-VCz"/>
@@ -753,7 +753,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="You are not connected with the internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vsN-0e-M4i">
-                                <rect key="frame" x="38.333333333333343" y="211" width="337.33333333333326" height="37"/>
+                                <rect key="frame" x="29" y="429.5" width="966.5" height="95"/>
                                 <viewLayoutGuide key="safeArea" id="Oge-Zy-QiO"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="4yF-A9-ifk"/>
@@ -774,7 +774,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" layoutMarginsFollowReadableWidth="YES" text="incorrect password or user" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfm-qm-xs1">
-                                <rect key="frame" x="25.666666666666657" y="124" width="363" height="30"/>
+                                <rect key="frame" x="243.5" y="227.5" width="537" height="97"/>
                                 <viewLayoutGuide key="safeArea" id="oVg-2Q-9Qc"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="pWj-QB-9R2"/>
@@ -795,7 +795,7 @@
                                 </variation>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="753" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="7Q6-dg-tb3">
-                                <rect key="frame" x="143.66666666666666" y="93" width="126.99999999999997" height="28"/>
+                                <rect key="frame" x="385.5" y="157" width="253" height="78"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Hks-tH-Bly"/>
                                 </constraints>
@@ -814,9 +814,9 @@
                                 </variation>
                             </textField>
                             <textField opaque="NO" tag="-3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="n9L-w8-5cb">
-                                <rect key="frame" x="146" y="64" width="122" height="27"/>
+                                <rect key="frame" x="390.5" y="70" width="243" height="79"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="WeG-yk-g1J"/>
+                                    <constraint firstAttribute="height" constant="33" id="WeG-yk-g1J"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -833,7 +833,7 @@
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXn-um-6vs">
-                                <rect key="frame" x="113" y="400" width="188" height="47"/>
+                                <rect key="frame" x="250" y="968" width="524" height="108"/>
                                 <viewLayoutGuide key="safeArea" id="4nr-CR-m9J"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="I4V-Xc-5T8"/>
@@ -879,10 +879,10 @@
                             <constraint firstItem="czq-PS-3Re" firstAttribute="top" secondItem="Sui-5J-dS4" secondAttribute="top" constant="20" id="A3H-Py-jhJ"/>
                             <constraint firstItem="Sui-5J-dS4" firstAttribute="trailing" secondItem="czq-PS-3Re" secondAttribute="trailing" constant="20" id="AfD-69-OIl"/>
                             <constraint firstItem="IbA-Pp-6yg" firstAttribute="top" secondItem="daf-e3-b5Q" secondAttribute="bottom" constant="29" id="C1d-jE-pue">
-                                <variation key="heightClass=regular-widthClass=compact" constant="6"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="38"/>
                             </constraint>
                             <constraint firstItem="lfm-qm-xs1" firstAttribute="top" secondItem="7Q6-dg-tb3" secondAttribute="bottom" constant="-7.5" id="DXS-Sr-hOD">
-                                <variation key="heightClass=regular-widthClass=compact" constant="3"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="24"/>
                             </constraint>
                             <constraint firstItem="lfm-qm-xs1" firstAttribute="centerX" secondItem="Bfy-Z3-kUZ" secondAttribute="centerX" id="DeQ-tQ-aYT"/>
                             <constraint firstItem="iR2-mz-smv" firstAttribute="centerX" secondItem="Bfy-Z3-kUZ" secondAttribute="centerX" id="EDy-jv-3Xm"/>
@@ -901,8 +901,8 @@
                             <constraint firstItem="7Q6-dg-tb3" firstAttribute="height" secondItem="lfm-qm-xs1" secondAttribute="height" constant="-18.5" id="Kjv-Gt-f8G">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
                             </constraint>
-                            <constraint firstItem="7Q6-dg-tb3" firstAttribute="top" secondItem="n9L-w8-5cb" secondAttribute="bottom" constant="2" id="Kt1-uK-hVx"/>
-                            <constraint firstItem="n9L-w8-5cb" firstAttribute="top" secondItem="Sui-5J-dS4" secondAttribute="top" constant="20" id="L08-8f-9fm"/>
+                            <constraint firstItem="7Q6-dg-tb3" firstAttribute="top" secondItem="n9L-w8-5cb" secondAttribute="bottom" constant="30" id="Kt1-uK-hVx"/>
+                            <constraint firstItem="n9L-w8-5cb" firstAttribute="top" secondItem="Sui-5J-dS4" secondAttribute="top" constant="75" id="L08-8f-9fm"/>
                             <constraint firstItem="7Q6-dg-tb3" firstAttribute="centerX" secondItem="Bfy-Z3-kUZ" secondAttribute="centerX" id="LJ6-98-Puc"/>
                             <constraint firstItem="Sui-5J-dS4" firstAttribute="bottom" secondItem="czq-PS-3Re" secondAttribute="bottom" constant="20" id="Mxf-cy-k1u"/>
                             <constraint firstItem="czq-PS-3Re" firstAttribute="top" secondItem="Sui-5J-dS4" secondAttribute="top" constant="10" id="OW9-Fz-3I8"/>
@@ -1047,7 +1047,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZjU-0M-OFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1405.6451612903227" y="483.75992939099734"/>
+            <point key="canvasLocation" x="1405.5999999999999" y="483.50824587706148"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BJ5-pD-pzz">
@@ -1056,7 +1056,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="qEy-bZ-Mio"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Udc-Qj-XrD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
