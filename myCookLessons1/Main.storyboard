@@ -63,7 +63,7 @@
                                                 </mask>
                                             </variation>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="-1" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-1g-asE">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="-1" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" minimumScaleFactor="0.80000000000000004" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-1g-asE">
                                             <rect key="frame" x="104" y="9" width="255" height="39"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="255" id="CaK-xM-HAh"/>
@@ -145,8 +145,8 @@
                                             <exclude reference="Pg8-eh-Rgg"/>
                                             <exclude reference="VKM-Kv-KZL"/>
                                             <exclude reference="ixa-qV-Ndh"/>
-                                            <exclude reference="Yui-1Y-i83"/>
                                             <exclude reference="oeg-0I-9qZ"/>
+                                            <exclude reference="Yui-1Y-i83"/>
                                             <exclude reference="6z5-gO-57x"/>
                                             <exclude reference="Ddx-cp-VrZ"/>
                                             <exclude reference="K65-V4-FUg"/>
