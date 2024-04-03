@@ -72,15 +72,18 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             lessonsLearnedTextView.text = meal.lessonsLearned
             imageName = meal.photo
             
-            if photoImageView.image != nil {
+           if photoImageView.image != nil {
                  AddPhotoLabel.isHidden = true
                 } // end if
-        
+    
         } // end if let meal
         
         //Enable the Save button only if the text field has a valid Meal name
         
         updateSaveButtonState()
+        
+       
+        
         
     }// end override func viewdidload
     
