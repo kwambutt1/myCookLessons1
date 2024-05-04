@@ -236,7 +236,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         if lessonsLearnedTextView.isFirstResponder {
             lessonsLearnedTextView.resignFirstResponder()
             
-            } else {
+            }
+        
+        //else {
     
             // UIImagePickerCotroller is a view controller that lets a user pick media from their photo library.
     
@@ -251,7 +253,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             imagePickerController.delegate = self
             present(imagePickerController,animated: true, completion: nil)
             
-        } // end of else
+       // } // end of else
     
     }// end of @IBAction func selectImageFromLibrary
     
